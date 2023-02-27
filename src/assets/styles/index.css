@@ -1,0 +1,94 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-appbar {
+  max-width: 32px;
+  max-height: 32px;
+  color: white;
+  padding: 8px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(128, 128, 128, 0.514);
+}
+
+.header-app {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  display: flex;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.button-style {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.514);
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  min-width: 10%;
+  cursor: pointer;
+}
+
+.button-style:hover,
+.button-style:focus {
+  background-color: rgb(88, 174, 255);
+}
+
+.input-style {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(128, 128, 128, 0.514);
+  border: 1px solid;
+  border-radius: 4px;
+  border-color: rgba(128, 128, 128, 0.514);
+  padding: 12px;
+  min-width: 30%;
+}
+
+.input-style:hover,
+.input-style:focus {
+  border-color: rgb(88, 174, 255);
+}
+
+.input-style:hover::-webkit-input-placeholder {
+  color: rgb(88, 174, 255);
+}
+
+.pre-style {
+  font-size: 20px;
+}
+
+/* .search-icon {
+  color: rgba(128, 128, 128, 0.514);
+  position: absolute;
+  width: 25px;
+  display: flex;
+  top: 10px;
+  left: 270px;
+} */
+
+/* .search-icon:hover {
+  color: rgb(88, 174, 255);
+} */

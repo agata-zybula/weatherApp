@@ -1,0 +1,80 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-appbar {
+  max-width: 32px;
+  max-height: 32px;
+  color: #fff;
+  padding: 8px;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  background-color: #80808083;
+}
+
+.header-app {
+  color: #fff;
+  font-family: Comfortaa, cursive;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+}
+
+.form-style {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+
+.button-style {
+  color: #fff;
+  min-width: 10%;
+  cursor: pointer;
+  background-color: #80808083;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: Comfortaa, cursive;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-style:hover, .button-style:focus {
+  background-color: #58aeff;
+}
+
+.input-style {
+  color: #80808083;
+  min-width: 30%;
+  border: 1px solid #80808083;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: Comfortaa, cursive;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.input-style:hover, .input-style:focus {
+  border-color: #58aeff;
+}
+
+.input-style:hover::-webkit-input-placeholder {
+  color: #58aeff;
+}
+
+.pre-style {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=index.f7fa0e17.css.map */

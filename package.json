@@ -1,0 +1,28 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agata-zybula/weatherApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agata-zybula/weatherApp/issues"
+  },
+  "homepage": "https://github.com/agata-zybula/weatherApp#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "notiflix": "^3.2.6"
+  }
+}

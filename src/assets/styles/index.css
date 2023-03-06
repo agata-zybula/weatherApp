@@ -80,6 +80,25 @@ body {
   font-size: 20px;
 }
 
+.data-content {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: rgb(88, 174, 255);
+  max-width: 400px;
+}
+
+.data-section {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
 /* .search-icon {
   color: rgba(128, 128, 128, 0.514);
   position: absolute;

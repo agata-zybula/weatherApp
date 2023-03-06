@@ -77,4 +77,22 @@ body {
   font-size: 20px;
 }
 
+.data-content {
+  max-width: 400px;
+  background-color: #58aeff;
+  border-radius: 4px;
+  justify-content: center;
+  margin: 30px auto 0;
+  display: flex;
+}
+
+.data-section {
+  color: #fff;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-family: Comfortaa, cursive;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=index.f7fa0e17.css.map */
